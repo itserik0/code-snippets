@@ -1,0 +1,9 @@
+//find tickets scroll 
+$('#selector').on("click",function(e){
+    $("html, body").animate({
+        scrollTop: position 
+    }, 
+    500);
+
+    e.preventDefault(); 
+});
