@@ -1,5 +1,8 @@
 //find tickets scroll 
 $('#selector').on("click",function(e){
+    var position = $('#elem').position();
+    position = position.top;
+    
     $("html, body").animate({
         scrollTop: position 
     }, 
